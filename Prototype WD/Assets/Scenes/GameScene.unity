@@ -1761,6 +1761,7 @@ GameObject:
   - component: {fileID: 1681154347}
   - component: {fileID: 1681154346}
   - component: {fileID: 1681154348}
+  - component: {fileID: 1681154349}
   m_Layer: 0
   m_Name: BaseballPlayer
   m_TagString: Player
@@ -1962,6 +1963,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pool: {fileID: 590634442}
   spawnPoint: []
+--- !u!114 &1681154349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681154338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a6fbe28ed853d408156f3ffb80285b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   maxHP: 100
   flashColor: {r: 1, g: 0, b: 0, a: 1}
   flashDuration: 0.1
