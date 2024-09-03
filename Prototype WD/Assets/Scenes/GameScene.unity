@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
@@ -800,6 +801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
@@ -1151,6 +1153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
@@ -1653,6 +1656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
@@ -2058,7 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4a6fbe28ed853d408156f3ffb80285b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  playerData: {fileID: 11400000, guid: 59de57846b8fd8e4dbcb95c3bc4c8e69, type: 2}
   flashColor: {r: 1, g: 0, b: 0, a: 1}
   flashDuration: 0.1
   invincibilityDuration: 0.5
@@ -2097,6 +2101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
@@ -2470,6 +2475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
@@ -2829,6 +2835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce41537fb8d4a814592df4ec58d5c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
   moveSpeed: 0.7
   players: []
   target: {fileID: 1681154341}
