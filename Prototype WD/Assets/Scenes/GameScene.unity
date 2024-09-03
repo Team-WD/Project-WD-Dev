@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 13068179}
   m_Layer: 6
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,7 +720,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -784,7 +784,7 @@ GameObject:
   - component: {fileID: 521073769}
   m_Layer: 6
   m_Name: Enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 1090042888}
   m_Layer: 6
   m_Name: Enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1553,7 +1553,7 @@ GameObject:
   - component: {fileID: 1593092935}
   m_Layer: 6
   m_Name: Enemy (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1962,6 +1962,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pool: {fileID: 590634442}
   spawnPoint: []
+  maxHP: 100
+  flashColor: {r: 1, g: 0, b: 0, a: 1}
+  flashDuration: 0.1
+  invincibilityDuration: 0.5
 --- !u!1 &1744989782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,7 +1983,7 @@ GameObject:
   - component: {fileID: 1744989783}
   m_Layer: 6
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2352,7 +2356,7 @@ GameObject:
   - component: {fileID: 2064796974}
   m_Layer: 6
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2561,7 +2565,7 @@ GameObject:
   - component: {fileID: 2069111586}
   m_Layer: 6
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
