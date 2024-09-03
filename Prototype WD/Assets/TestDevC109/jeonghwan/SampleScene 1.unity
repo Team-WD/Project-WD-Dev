@@ -765,6 +765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1681154341}
   offset: {x: 0, y: 0, z: 10}
+  boundX: 0.5
+  boundY: 0.8333333
 --- !u!1 &526611083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,10 +1372,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 100
-  hpSlider: {fileID: 0}
   flashColor: {r: 1, g: 0, b: 0, a: 1}
   flashDuration: 0.1
   invincibilityDuration: 0.5
+  gravestonePrefab: {fileID: 1946665302157214566, guid: b9e8f44c95fa43747888f696f6c452d9, type: 3}
 --- !u!1 &1744989782
 GameObject:
   m_ObjectHideFlags: 0
