@@ -718,6 +718,52 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &355379793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 355379794}
+  - component: {fileID: 355379795}
+  m_Layer: 0
+  m_Name: Bullet Launcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &355379794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355379793}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1681154341}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &355379795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355379793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcfa5719a730b34487cf9086c7c98ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pool: {fileID: 136130400}
+  weaponData: {fileID: 11400000, guid: 89c6507aae06bf24e9173cf89be5130b, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1992,6 @@ GameObject:
   - component: {fileID: 1681154347}
   - component: {fileID: 1681154346}
   - component: {fileID: 1681154349}
-  - component: {fileID: 1681154350}
   m_Layer: 0
   m_Name: BaseballPlayer
   m_TagString: Player
@@ -2020,6 +2065,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1993308586}
+  - {fileID: 355379794}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &1681154343
@@ -2151,19 +2197,6 @@ MonoBehaviour:
   flashDuration: 0.1
   invincibilityDuration: 0.5
   gravestonePrefab: {fileID: 1946665302157214566, guid: b9e8f44c95fa43747888f696f6c452d9, type: 3}
---- !u!114 &1681154350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681154338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee57fb3712ded564280d1641f310581b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 3478145133701424197, guid: 71644a468f5887b4c88c346a4f6f5dc9, type: 3}
 --- !u!1 &1744989782
 GameObject:
   m_ObjectHideFlags: 0
