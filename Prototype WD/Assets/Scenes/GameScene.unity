@@ -1849,6 +1849,7 @@ GameObject:
   - component: {fileID: 1681154346}
   - component: {fileID: 1681154348}
   - component: {fileID: 1681154349}
+  - component: {fileID: 1681154350}
   m_Layer: 0
   m_Name: BaseballPlayer
   m_TagString: Player
@@ -2067,6 +2068,19 @@ MonoBehaviour:
   flashDuration: 0.1
   invincibilityDuration: 0.5
   gravestonePrefab: {fileID: 1946665302157214566, guid: b9e8f44c95fa43747888f696f6c452d9, type: 3}
+--- !u!114 &1681154350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681154338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee57fb3712ded564280d1641f310581b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 3478145133701424197, guid: 71644a468f5887b4c88c346a4f6f5dc9, type: 3}
 --- !u!1 &1744989782
 GameObject:
   m_ObjectHideFlags: 0
