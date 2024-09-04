@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &13068180
@@ -345,7 +345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &16288383
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +520,52 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.8830807, y: 0.43903023, z: -0.04528146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &136130399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136130401}
+  - component: {fileID: 136130400}
+  m_Layer: 0
+  m_Name: Bullet Pool Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &136130400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136130399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898765d9a6a5c9d43941bf92703df91d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 3478145133701424197, guid: 71644a468f5887b4c88c346a4f6f5dc9, type: 3}
+--- !u!4 &136130401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136130399}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.771783, y: -2.5896041, z: -0.055728685}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -817,7 +862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &521073770
@@ -1004,7 +1049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &526611083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1125,7 @@ GameObject:
   - component: {fileID: 590634443}
   - component: {fileID: 590634442}
   m_Layer: 0
-  m_Name: Pool Manager
+  m_Name: Enemy Pool Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1183,7 +1227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &1090042889
@@ -1370,7 +1414,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &1280651197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,7 +1743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &1593092936
@@ -1887,7 +1930,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &1681154338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2158,7 +2200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &1744989784
@@ -2345,7 +2387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &1780373792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,7 +2602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &2064796975
@@ -2748,7 +2789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &2069111578
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +2975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 7289671fd71fa15458a8f3b5b725717f, type: 2}
-  moveSpeed: 0.7
+  currentHp: 0
   players: []
   target: {fileID: 1681154341}
 --- !u!195 &2069111587
@@ -2972,7 +3012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e677c124e553574b8bfeb268a944181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &2110529594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3019,5 +3058,6 @@ SceneRoots:
   - {fileID: 521073775}
   - {fileID: 1593092941}
   - {fileID: 111531717}
-  - {fileID: 590634443}
   - {fileID: 1280651199}
+  - {fileID: 590634443}
+  - {fileID: 136130401}
