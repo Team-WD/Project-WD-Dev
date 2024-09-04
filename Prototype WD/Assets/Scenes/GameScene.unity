@@ -1079,7 +1079,7 @@ GameObject:
   - component: {fileID: 590634443}
   - component: {fileID: 590634442}
   m_Layer: 0
-  m_Name: Pool Manager
+  m_Name: Enemy Pool Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
