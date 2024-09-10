@@ -1334,6 +1334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634803117}
   - component: {fileID: 1634803118}
+  - component: {fileID: 1634803119}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -1370,10 +1371,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sessionListContentParent: {fileID: 1352050464}
   sessionListEntryPrefab: {fileID: 6021665120243627826, guid: 4373e2fb67d0b984a95f1eacb5402461, type: 3}
+  inputVal: {x: 0, y: 0}
   lobbyName: default
   NicknameObj: {fileID: 430135352}
   roomNameObj: {fileID: 1559428030}
   playerPrefab: {fileID: 2470171745183649066, guid: 03732d11927caec468b7da43395d3112, type: 3}
+--- !u!114 &1634803119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634803115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 667ffe9c5d15b9649ae1fee7ca97923d, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1825644398
 GameObject:
   m_ObjectHideFlags: 0
