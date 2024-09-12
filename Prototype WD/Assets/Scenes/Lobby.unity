@@ -1371,7 +1371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sessionListContentParent: {fileID: 1352050464}
   sessionListEntryPrefab: {fileID: 6021665120243627826, guid: 4373e2fb67d0b984a95f1eacb5402461, type: 3}
-  inputVal: {x: 0, y: 0}
+  inputVec: {x: 0, y: 0}
   lobbyName: default
   NicknameObj: {fileID: 430135352}
   roomNameObj: {fileID: 1559428030}
