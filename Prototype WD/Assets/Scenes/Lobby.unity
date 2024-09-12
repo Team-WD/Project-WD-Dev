@@ -1372,10 +1372,14 @@ MonoBehaviour:
   sessionListContentParent: {fileID: 1352050464}
   sessionListEntryPrefab: {fileID: 6021665120243627826, guid: 4373e2fb67d0b984a95f1eacb5402461, type: 3}
   inputVec: {x: 0, y: 0}
+<<<<<<< HEAD
+=======
+  spawnPoints: []
+>>>>>>> 46dc87e374c3c37d565985c6be5a0366ff6118cb
   lobbyName: default
   NicknameObj: {fileID: 430135352}
   roomNameObj: {fileID: 1559428030}
-  playerPrefab: {fileID: 2470171745183649066, guid: 03732d11927caec468b7da43395d3112, type: 3}
+  playerPrefab: {fileID: 2470171745183649066, guid: 706a90a2d090a814d93a39dd5a44a46e, type: 3}
 --- !u!114 &1634803119
 MonoBehaviour:
   m_ObjectHideFlags: 0
