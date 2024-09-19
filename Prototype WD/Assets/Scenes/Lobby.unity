@@ -2538,6 +2538,7 @@ MonoBehaviour:
   NicknameObj: {fileID: 430135352}
   roomNameObj: {fileID: 1559428030}
   playerPrefab: {fileID: 2470171745183649066, guid: 22545ba6876b6a449b27404346a75b92, type: 3}
+  roomManagerPrefab: {fileID: 6891980737140438183, guid: 3c63d1380af6bcc469a97ef492a775ef, type: 3}
 --- !u!114 &1634803119
 MonoBehaviour:
   m_ObjectHideFlags: 0
