@@ -1470,8 +1470,7 @@ MonoBehaviour:
   lobbyName: default
   NicknameObj: {fileID: 430135352}
   roomNameObj: {fileID: 1559428030}
-  playerPrefab: {fileID: 2508688625564046898, guid: d7ed0f432106e714fa76dbb0e8cdd38d, type: 3}
-  playrUIPrefab: {fileID: 5727569407068061100, guid: c48bbe504db221e458b20aa565cf7928, type: 3}
+  playerPrefab: {fileID: 1918636408257627199, guid: e39c0d3b3378f8f43a7d9c0125fc526c, type: 3}
 --- !u!114 &1634803119
 MonoBehaviour:
   m_ObjectHideFlags: 0
