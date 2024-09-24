@@ -3054,7 +3054,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 405010573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: SelectWeapon
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &416853376
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,7 +4605,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 642350529}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &642350529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9002,7 +9026,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1464412853}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1464412853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9960,7 +9996,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1625939723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: ReadyUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1625939723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10727,7 +10775,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1716609003}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1716609003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10848,7 +10908,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1727497657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1727497657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12192,7 +12264,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1984574468}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: SelectWeapon
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1987099898
 GameObject:
   m_ObjectHideFlags: 0
@@ -12938,7 +13022,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2069405011}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1955249251}
+        m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2069405011
 MonoBehaviour:
   m_ObjectHideFlags: 0
