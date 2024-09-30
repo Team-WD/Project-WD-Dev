@@ -1387,6 +1387,7 @@ MonoBehaviour:
   - {fileID: 8222990570801674213, guid: 0d505e67168b52c46a1acb4ede71d4d8, type: 3}
   - {fileID: 8222990570801674213, guid: 0d505e67168b52c46a1acb4ede71d4d8, type: 3}
   roomManagerPrefab: {fileID: 6891980737140438183, guid: 3c63d1380af6bcc469a97ef492a775ef, type: 3}
+  loadingManagerPrefab: {fileID: 33571569558659773, guid: d3bedda8c07775442a77fb667b32ebb3, type: 3}
 --- !u!114 &1634803119
 MonoBehaviour:
   m_ObjectHideFlags: 0
