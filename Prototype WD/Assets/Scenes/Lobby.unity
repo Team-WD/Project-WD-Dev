@@ -794,14 +794,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8760992901595389215, guid: ce0e733d1ac38fa41b8ab724777379a0, type: 3}
-      propertyPath: m_text
-      value: Nick Name
-      objectReference: {fileID: 0}
-    - target: {fileID: 8760992901595389215, guid: ce0e733d1ac38fa41b8ab724777379a0, type: 3}
-      propertyPath: m_fontSize
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 8973207888283981503, guid: ce0e733d1ac38fa41b8ab724777379a0, type: 3}
       propertyPath: m_Name
       value: NickName
@@ -1728,14 +1720,6 @@ PrefabInstance:
     - target: {fileID: 1512677922136432950, guid: 2a2ae7e06c1435f4eba96b40ea395f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1888571324590587274, guid: 2a2ae7e06c1435f4eba96b40ea395f20, type: 3}
-      propertyPath: m_text
-      value: Room Name
-      objectReference: {fileID: 0}
-    - target: {fileID: 1888571324590587274, guid: 2a2ae7e06c1435f4eba96b40ea395f20, type: 3}
-      propertyPath: m_fontSize
-      value: 47.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
